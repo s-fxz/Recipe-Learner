@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #F88B2C;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 185px;
+    background-color: #1e1e1e;
+}
+
+/* Logo */
+.logo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.rl{
+    font-family: sans-serif;
+    color: #e67512;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.logolink{
+    text-decoration: none;
+    text-align: center;
+}
+.learn{
+    text-align: center;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px; */
+}
+/* Search Box */
+.search{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.search-input{
+    text-align: center;
+    height: 20px;
+    border: none;
+    border-left: 2px solid #e67512;
+    border-right: 2px solid #e67512;
+    
+}
+
+/* Sidecontent */
+.sidecontent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 70px;
+
+}
+.sidecontent p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.Recipes{
+    color: white;
+}
+ul li a{
+    display: inline-block;
+    padding: 15px ;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+ul li ul.dropdown li{
+    display: block;
+    font-size: 12px;
+}
+ul li ul.dropdown{
+    width: 100%;
+    /* position: absolute; */
+    display: none;
+}
+ul li a:hover{
+    color: #ffffff;
+
+}
+ul li:hover .dropdown{
+    display: block;
+}
+
+/* Footer */
+footer{
+    border-top: 1px rgba(255, 255, 255, 0.5) solid;
+    padding-top: 5px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    padding-bottom: 5px;
+    gap: 10px;
+}
+.contact p a{
+    text-decoration: none;
+    color: rgb(0, 148, 234);
+    font-size: 12px;
+
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+
+/* Content */
+.content{
+    display: flex;
+    flex: 1;
+    background-color: #F88B2C;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox{
+    height: 630px;
+    width: 820px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    border: 10px solid white;
+    gap: 10px;
+}
+.box{
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+}
+.box1{
+    background-color: red;
+    background-image: url(images2/2.jpg);
+}
+.box2{
+    background-color: yellow;
+    background-image: url(images2/5.jpg);
+    background-position-y: -70px;
+}
+.box3{
+    background-color: pink;
+    background-image: url(images/garnish.jpg);
+    background-position-y: -70px;
+}
+.box4{
+    background-color: aqua;
+    
+    background-image: url(images/11.webp);
+    background-position-y: -170px;
+
+}
+.box5{
+    background-color: wheat;
+    background-image: url(images/3.jpg);
+    background-position-y: -270px;
+}
+.box6{
+    background-color: violet;
+    
+    background-image: url(images/burger.jpg);
+}
